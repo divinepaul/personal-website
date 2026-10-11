@@ -1,0 +1,39 @@
+<title>Making a very minimal personal website.</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style> body { white-space: pre-line; margin: 2vw auto; padding: 0 5vw; max-width: 65ch; font: 1em sans-serif; color-scheme: light dark; background: Canvas; color: CanvasText; } </style>
+
+<a href="/">home</a>
+
+2026-10-11 
+
+<h1>Making a very minimal personal website.</h1>
+
+I want a minimal site.
+This site is minimal.
+
+It loads fast, it will show the content perfectly with no bugs.
+It has no animations, no effects and nothing lagging it down. 
+
+also it isnt horrible to read through and has auto dark mode and light mode.
+
+Now how to get to this setup ?
+
+I love markdown but I dont like a build step for my website.
+however, I dont like nesting and writing HTML.
+
+A simple three line html can get you there.
+here
+
+<code style="background: #555; color:white; display: block; width: 100%">&lt;title&gt;Making a very minimal personal website.&lt;/title&gt;
+&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1&quot;&gt;
+&lt;style&gt; body { white-space: pre-line; margin: 2vw auto; padding: 0 5vw; max-width: 65ch; font: 1em sans-serif; color-scheme: light dark; background: Canvas; color: CanvasText; } &lt;/style&gt;
+</code>
+
+with the white-space: pre-line css property, you dont have to spam &lt;br&gt;
+and new lines in your html file will show up correctly.
+
+You can avoid writing any other tags, modern browsers are so forgiving about html syntax and tags it will render your content just fine
+
+so just pasting the above code snippet into a an html file, writing text you want underneath would just show up in a neat layout which is responsive.
+
+I want my stuff to work with no hassles. so this 0 dependency setup is great for me.
